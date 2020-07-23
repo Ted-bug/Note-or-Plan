@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:title="添加"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/renew"
+        android:title="刷新"
+        android:icon="@drawable/ic_autorenew_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/help"
+        android:title="帮助"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/about"
+        android:title="关于"
+        app:showAsAction="never"/>
+</menu>
