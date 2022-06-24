@@ -22,7 +22,7 @@ public class AboutFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         mTvView=view.findViewById(R.id.tv_about);
-        String about="制作者：18软工6班杨明泰；学号：1814080902627";
+        String about="制作者：XX软工X班XXX；学号：1814XXXXXXX627";
         mTvView.setText(about);
     }
 }
